@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    font-family: sans-serif;
+}
+#logo img{
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    transition: all 1s ease-in-out;
+}
+#logo img:hover{
+    transform: rotate(360deg);
+}
+#logo1 img{
+    width: 120px;
+    position: absolute;
+    top: 30px;
+    left: 95%;
+    transition: all 0.5s ease-in-out;
+}
+#logo1 img:hover{
+    width: 140px;
+}
+#img img{
+    position: absolute;
+    top: 25%;
+    left: 43%;
+    transform: translate(-50% -50%);
+}
+#img img{
+    width: 800px;
+    height: 750px;
+    text-align: center;
+    transition: all 0.5s ease-in;
+}
+#img img:hover{
+    background-color: orange;
+    width: 800px;
+    height: 790px;
+    overflow: hidden;
+}
+#nav{
+    position: absolute;
+    top: 60px;
+    left: 60%;
+    font-size: 50px;
+}
+#nav a{
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+#nav a:hover{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: red;
+}
+#box{
+    width: 1750px;
+    height: 800px;
+    background-color: rgb(255, 123, 0);
+    position: absolute;
+    top: 24%;
+    left: 43%;
+    transition: all 0.5s ease-in-out;
+}
+#box:hover{
+    width: 1750px;
+    height: 820px;
+    background-color: black;
+}
+#h1 h1{
+    color: orange;
+    position: absolute;
+    top: 60%;
+    left: 75%;
+    font-size: 90px;
+}
+#center{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+#center h1{
+    font-size: 90px;
+}
+#center h2{
+    font-size: 70px;
+}
+#center h3{
+    font-size: 30px;
+}
+#center p{
+    font-size: 20px;
+    position: absolute;
+    top: 110%;
+}
+#center h4{
+    position: absolute;
+    top: 130%;
+    font-size: 40px;
+}
+#center h5{
+    position: absolute;
+    top: 170%;
+    font-size: 50px;
+    background-color: pink;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    transition: all 1s ease-in-out;
+}
+#center h5:hover{
+    width: 350px;
+    color: red;
+    background-color: black;
+}
+#box2{
+    width: 20px;
+    height: 300px;
+    background-color: red;
+    position: absolute;
+    top: 40%;
+    left: 14%;
+
+}
+#box3{
+    width: 350px;
+    height: 350px;
+    background-color: black;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    transition: all 0.5s ease-in-out;
+}
+#box3:hover{
+    transform: rotate(360deg);
+    width: 370px;
+    height: 370px;
+    background-color: red;
+}
+#text{
+    font-size: 28px;
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    transition: all 0.5s ease-in;
+}
+#text:hover{
+    color: beige;
+}
+#pic img{
+    position: absolute;
+    width: 150px;
+    top: 90%;
+    left: 80%;
+    transition: all 0.5s ease-in-out;
+}
+#pic img:hover{
+    width: 170px;
+}
+#pic1 img{
+    position: absolute;
+    width: 95px;
+    top: 90%;
+    left: 70%;
+    transition: all 0.5s ease-in-out;
+}
+#pic1 img:hover{
+    width: 110px;
+}
+#pic2 img{
+    position: absolute;
+    width: 95px;
+    top: 90%;
+    left: 60%;
+    transition: all 0.5s ease-in-out;
+}
+#pic2 img:hover{
+    width: 110px;
+}
+#h{
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    background-color: black;
+    color: red;
+    letter-spacing: 40px;
+}
+#h h1{
+    font-size: 90px;
+}
+#h p{
+    font-size: 60px;
+}
+#h h2{
+    font-size: 90px;
+}
+#h:hover{
+    color: white;
+    background-color: red;
+}
